@@ -1,4 +1,4 @@
-package com.training.oracle.bms;
+package com.training.bms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,7 @@ public class AlstromAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AlstromAppApplication.class, args);
+		System.out.println("Hi from maha");
 	}
 
 }
